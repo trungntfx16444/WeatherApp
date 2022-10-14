@@ -68,7 +68,7 @@ app.get("/", async (req, res) => {
 app.set("view engine", "hbs");
 
 // muong ung dung chay tren moi truong web browser nen thi thiet lap nhu duoi
-const PORT = process.env.port || "8080";
+const PORT = process.env.PORT || "8080";
 app.listen(PORT, () => {
-  console.log(`app run on http://localhost:${port}`);
+  console.log(`app run on http://localhost:${PORT}`);
 });
